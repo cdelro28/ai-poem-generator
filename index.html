@@ -4,44 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
+
     <title>AI Poem Generator</title>
   </head>
   <body>
     <header>
-      <h1>The AI Poem Generator</h1>
+      <h1>artificial intelligence: poem generator</h1>
     </header>
-    <main>
-      <input
-        type="text"
-        placeholder="Choose a topic"
-        autofocus
-        required
-        autocomplete="off"
-      />
-      <input type="submit" />
-      <div>
-        Roses are red
-        <br />
-        Violets are blue
-        <br />
-        .....
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/cdelro28" target="_blank"
-        >Christine Del Rosario</a
-      >
-      and is open-sourced on
-      <a href="https://github.com/cdelro28/ai-poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://ai-poem-generator-cd.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Choose a topic"
+            autofocus
+            required
+            autocomplete="off"
+            class="idea"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Roses are red
+          <br />
+          Violets are blue
+          <br />
+          .....
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/cdelro28" target="_blank"
+          >Christine Del Rosario</a
+        >
+        and is open-sourced on
+        <a href="https://github.com/cdelro28/ai-poem-generator" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://ai-poem-generator-cd.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
