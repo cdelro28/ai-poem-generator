@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #685454;
+  color: #ea8a8a;
 }
 
 .container {
@@ -12,13 +12,19 @@ a {
   max-width: 600px;
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
   font-family: "Sacramento", cursive;
   font-weight: 900;
   font-size: 70px;
-  line-height: 1.5;
+  line-height: 1;
   color: #685454;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
 }
 
 form {
@@ -56,10 +62,12 @@ form {
   line-height: 2;
   border-left: 5px solid #ea8a8a;
   border-radius: 0 10px 10px 0;
+  color: #685454;
 }
 
 footer {
   text-align: center;
   font-size: 12px;
   margin-top: 30px;
+  color: #685454;
 }
