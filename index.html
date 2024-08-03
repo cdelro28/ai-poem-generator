@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
 
     <title>AI Poem Generator</title>
@@ -19,7 +20,7 @@
         <h2>Poem Generator</h2>
       </header>
       <main>
-        <form>
+        <form id="poem-form-input">
           <input
             type="text"
             placeholder="Choose a topic"
@@ -30,13 +31,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Roses are red
-          <br />
-          Violets are blue
-          <br />
-          .....
-        </div>
+        <div class="poem" id="generated-poem"></div>
       </main>
       <footer>
         This AI project was coded by
