@@ -22,18 +22,24 @@
       </header>
       <main>
         <form id="poem-form-input">
-          <input
-            type="text"
-            placeholder="Choose a topic"
-            autofocus
-            required
-            autocomplete="off"
-            class="idea"
-            id="user-input"
-          />
-          <input type="submit" class="submit-button" />
+          <div class="input-container">
+            <input
+              type="text"
+              placeholder="Choose a topic"
+              autofocus
+              required
+              autocomplete="off"
+              class="idea"
+              id="user-input"
+            />
+            <input type="submit" class="submit-button" />
+          </div>
+          <div class="hint">
+            i.e. traveling the world, finding love or motivtion on reaching
+            goals.
+          </div>
         </form>
-        <div class="poem" id="generated-poem"></div>
+        <div class="poem hidden" id="generated-poem"></div>
       </main>
       <footer>
         This AI project was coded by
